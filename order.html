@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+</head>
+<body>
+    <h1 style="text-align: center;">KAERU Order Page</h1>
+         <br><br>
+         
+        <label style="margin-left: 500pt;" for="addrinput">Address</label>
+        <br><br>
+        <textarea style="margin-left: 370pt;" id="address" name="address" rows="3" cols="50" placeholder="address"></textarea>
+        <br><br><br>
+        <label style="margin-left: 330pt;" for ="nameinput">Name :</label>
+        <input style="margin-left: 30px;"type="text" id="nameinput" name="name" required="required" />
+        <br><br><br>
+        <label style="margin-left: 330pt;" for="cityinput">City :</label>
+        <input style="margin-left: 40px;" type="text" id="cityinput" name="city" required="required" />
+        <br><br><br>
+        <label style="margin-left: 330pt;" for="emailinput">Email :</label>
+        <input style="margin-left: 30px;" type="email" id="emailinput" name="email" required="required" />
+        <br><br><br>
+        <label style="margin-left: 330pt;" for="phoneinput">Phone :</label>
+        <input style="margin-left: 30px;" type="text" id="phoneinput" name="phone" required="required" />
+        <br><br><br>
+     
+         
+    <table style="margin-left: 200pt;" border="1" width="800" height="200" cellpadding="5" cellspacing="0">
+        <tr>
+            <th rowspan="2">Item</th>
+            <th rowspan="2">Quantity</th>
+            <th rowspan="2">Date</th>
+            <th rowspan="2"> Action</th>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>Karipap Mac and Cheese Ayam</td>
+            <td>
+                <input type = "number" ;>
+            </td>
+            <td>
+                <form>
+                    <input type="date" >
+                    <input type="time">
+                    
+                </form>
+               
+            </td>
+            <td>
+                <a href="editorder.html">Edit |</a>
+                <a href="delete.html">Delete</a>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Karipap Mac and Cheese Daging</td>
+            <td>
+                <input type = "number";>
+            </td>
+            <td>
+                <form>
+                    <input type="date" >
+                    <input type="time">
+                    
+                </form>
+               
+            </td>
+            <td>
+                <a href="editorder.html">Edit |</a>
+                <a href="delete.html">Delete</a>
+
+            </td>
+        </tr>
+    </table>
+
+        <br><br>
+        
+        <input style="margin-left: 1000px;" type="button" id="orderBtn" value="Order" onclick="alert('Thank You for your Order! We will contact via Whatsapp and E-mail  please wait patiently....')"/>
+          
+      </form>
+</body>
+</html>
